@@ -7,3 +7,11 @@ Roslyn for scriptingを利用してExcelにC#を組み込むアドイン
 1. Double click CsharpForExcel.vsto in that zip folder
 1. install it
 
+## bug
+This can not use oneline comment
+ex.
+```cs
+//1行コメントはつかえません
+
+/*複数行コメントをつかってください*/
+```
